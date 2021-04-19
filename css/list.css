@@ -1,0 +1,49 @@
+body {
+    height: 3000px;
+}
+
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #B1191A;
+}
+
+.nav li {
+    float: left;
+    height: 45px;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.nav li a {
+    font-size: 14px;
+}
+
+.nav li:nth-child(-n+3) a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+.nav li:last-child::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    /* font-size: 16px; */
+}
+
+.sk-bd {
+    width: 100%;
+    margin: 1px auto;
+}
+
+.sk-bd li {
+    float: left;
+    width: 290px;
+    height: 458px;
+    margin: 0 5px;
+    /* text-align: center; */
+}
+
+.sk-bd li:hover {
+    outline: 1px solid #E12228;
+}

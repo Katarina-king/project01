@@ -1,0 +1,117 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    height: 82px;
+    border-bottom: 2px solid #B1191A;
+}
+
+.logo {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png);
+}
+
+.register {
+    margin-top: 18px;
+    height: 526px;
+    border: 1px solid #dfdfdf;
+}
+
+.box-hd {
+    height: 41px;
+    line-height: 41px;
+    padding: 0 10px;
+    background-color: #ececec;
+}
+
+.box-hd h2 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login {
+    font-size: 14px;
+    float: right;
+}
+
+.login a {
+    color: #C81623;
+}
+
+.box-bd {
+    padding: 54px 350px;
+    font-size: 14px;
+}
+
+.box-bd input {
+    width: 240px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #999;
+    padding-left: 15px;
+    margin: 10px 0;
+}
+
+.box-bd label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.box-bd li:nth-child(4) {
+    text-align: center;
+}
+
+.box-bd li i {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    width: 34px;
+    color: #fff;
+    margin: 0 2px;
+}
+
+.box-bd li i:nth-child(1) {
+    background-color: red;
+}
+
+.box-bd li i:nth-child(2) {
+    background-color: rgb(233, 136, 8);
+}
+
+.box-bd li i:nth-child(3) {
+    background-color: rgb(14, 245, 45);
+}
+
+.agree input {
+    text-align: right;
+    margin-left: 95px;
+    width: 12px;
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1BA1E6;
+}
+
+.tj input {
+    margin-left: 95px;
+    width: 200px;
+    color: #fff;
+    background-color: #C81623;
+    border: 0;
+}
